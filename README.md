@@ -18,8 +18,13 @@ h = the estimated movement cost to move from that given square on the grid to th
 
 #NODE COLORS
 Turquoise-> Starting Point/Position.
+
+
+
 Purple-> Ending point/Destination.
-Black-> Walls/barrier
+Black-> Walls/barrier.
+
+
 Green-> Shortest Path.
   
 
