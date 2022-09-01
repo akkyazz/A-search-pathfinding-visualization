@@ -1,4 +1,4 @@
-# A-search-pathfinding-visualization
+# A*-search-pathfinding-visualization
 What is A* Search Algorithm? 
 A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals.
 
@@ -12,9 +12,19 @@ Consider a square grid having many obstacles and we are given a starting cell an
 What A* Search Algorithm does is that at each step it picks the node according to a value-‘f’ which is a parameter equal to the sum of two other parameters – ‘g’ and ‘h’. At each step it picks the node/cell having the lowest ‘f’, and process that node/cell.
 We define ‘g’ and ‘h’ as simply as possible below
 g = the movement cost to move from the starting point to a given square on the grid, following the path generated to get there. 
-h = the estimated movement cost to move from that given square on the grid to the final destination. This is often referred to as the heuristic, which is nothing but a kind of smart guess. We really don’t know the actual distance until we find the path, because all sorts of things can be in the way (walls, water, etc.). There can be many ways to calculate this ‘h’ which are discussed in the later sections.
+h = the estimated movement cost to move from that given square on the grid to the final destination. This is often referred to as the heuristic, which is nothing but a kind of smart guess. We really don’t know the actual distance until we find the path, because all sorts of things can be in the way (walls, water, etc.). 
 
-![a search 2](https://user-images.githubusercontent.com/52878265/185157383-be7168ae-83cd-4e0a-8f21-ef69602e4278.png)
-![A search](https://user-images.githubusercontent.com/52878265/185157396-695a6ce2-6c32-4325-8baf-f8e1efbbe22b.png)
-![astar 3](https://user-images.githubusercontent.com/52878265/185157405-09552fee-b809-4f69-b620-40885ae34c36.png)
-![sc 4](https://user-images.githubusercontent.com/52878265/185157410-51df8144-8bcc-49c5-86bf-9168b64be0f2.png)
+
+
+
+
+
+
+
+![Screenshot (4)](https://user-images.githubusercontent.com/52878265/187992102-9dbbc481-d7ec-48a5-9cdb-23c47f1738ba.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/52878265/187992110-b841b119-b373-4f18-8415-cee5a62ac6d7.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/52878265/187992116-b319af37-8b97-4fc6-b96c-d596d7866724.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/52878265/187992118-4ccc5ca5-3217-476c-b8e2-3056f96d8262.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/52878265/187992122-e509e3d2-85a1-4084-a0d6-736379797f35.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/52878265/187992126-7adacd72-a9b5-40c0-841b-091f3087440b.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/52878265/187992131-9d5676a6-19f4-4d7f-a286-998e1d3e3302.png)
